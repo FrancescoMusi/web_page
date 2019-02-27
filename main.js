@@ -1,5 +1,3 @@
-const fetch  = require('node-fetch')
-
 let change_image_button = document.getElementById('change_image')
 let image = document.querySelector('img')
 
@@ -24,6 +22,8 @@ image.onclick = function() {
 	change_image()
 }
 
+/*
+const fetch  = require('node-fetch')
 
 let request_button = document.getElementById('request_button')
 let text_request = document.getElementById()
@@ -35,5 +35,5 @@ request_button.onclick = function() {
 	})
 	
 }
-
+*/
 
