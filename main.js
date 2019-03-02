@@ -22,18 +22,18 @@ image.onclick = function() {
 	change_image()
 }
 
-/*
-const fetch  = require('node-fetch')
 
 let request_button = document.getElementById('request_button')
-let text_request = document.getElementById()
 
 request_button.onclick = function() {
 	fetch('https://api.paninidellospalla.it/info')
-	.then(res => {
-		document.getElementById('text_request').innerHTML = res.json()
+	.then((res) => {
+		response = JSON.stringify(res.json())
+		let responseDIV = document.getElementById('text_request')
+    responseDIV.innerHTML = `<pre>${response}</pre>`;
+
 	})
 	
 }
-*/
+
 
